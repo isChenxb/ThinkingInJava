@@ -79,7 +79,7 @@ class ClassTask implements Runnable {
 		while(!test.isError()){
 			test.doSomething();
 			if (test.check()){
-				System.out.println("error hapened");
+				System.out.println("error happend");
 				test.error();
 			}
 		}

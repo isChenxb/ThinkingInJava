@@ -33,7 +33,7 @@ public class AttemptLocking {
 		}
 	}
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception {
 		final AttemptLocking lock = new AttemptLocking();
 		lock.untimed();
 		lock.timed();

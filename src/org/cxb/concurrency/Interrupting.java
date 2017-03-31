@@ -27,6 +27,7 @@ class IOBlocked implements Runnable {
 	@Override
 	public void run() {
 		try {
+			System.out.println("Waiting for read()");
 			is.read();
 		} catch (IOException e) {
 			if(Thread.currentThread().isInterrupted()) {
